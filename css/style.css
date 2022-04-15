@@ -1,0 +1,82 @@
+*{
+    margin: 5px;
+    padding: 0px;
+}
+
+
+
+.navegador-derecha{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+          
+}
+
+.navbar-brand {
+    list-style-type: none; color: orange;
+}
+
+.titulito { 
+    display: flex;
+    margin-top: 10px;
+    justify-content: center; 
+    margin-bottom: 20px;    
+}
+
+.textomedio {
+    display: flex;
+    text-align: center;
+    margin-top: 20px;    
+    
+}
+
+.parrafito1 {
+    display: flex;
+    margin-top: 200px;
+    overflow-wrap: normal;
+    
+}
+
+.url {
+    display: flex;
+    margin-top: 60px;
+    float: right;
+    justify-content: flex-start;
+    margin: 100px;
+    padding: 0px
+          
+}
+
+.enviar {
+    display: flex;
+    margin-top: 1px;
+    justify-content: center;
+    
+}
+.enviar {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.form-row {
+    margin-top: 20;
+}
+
+
+
+/* footer */
+
+.footer {
+    background-color: cyan;
+    padding: 1em;
+    justify-content: space-around;
+    bottom: 0;
+    width: 100%;
+
+}
+
+.metodospago {
+    display: flex;
+    justify-content: space-around
+}
