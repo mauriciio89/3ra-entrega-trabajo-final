@@ -15,16 +15,17 @@
 <body>
     
     <!-- navbar-->
-        <header>
+      <header>
       <div class="navegador-derecha"> 
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">Home</a>
+          
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
               <a class="nav-link active" aria-current="page" href="../clase-11/views/contacto.html">Contacto</a>
               <a class="nav-link" href="../clase-11/views/registrarme.html">Registrarme</a>
               <a class="nav-link" href="../clase-11/views/iniciarsesion.html">Iniciar Sesión</a>
@@ -43,7 +44,7 @@
       
       <!-- Fin Logo -->  
 
-      <section>
+      <section class="myv">
         <article>
             <h1 class="titulito"> Misión y Visión </h1>
                 <p class="textomedio">Somos emprendedores dedicados a ofrecer servicios de importaciones a través de viajeros frecuentes , entregamos el producto en la puerta de su domicilio , el máximo tiempo de espera son 30 días siendo en su mayoría de veces el tiempo estimado de 20 días , siempre a sus órdenes para brindarles el mejor servicio en el menos tiempo posible y asi lograr clientes fieles para una aventura constante intentando lograr a futuro cargas muchos mas grandes.</p>
@@ -54,7 +55,11 @@
         <!-- metodologia de trabajo-->
 
         <div class="parrafito1">
-          <section>
+          <section class="textoeinstrucciones">
+                        
+            <!-- foto de instrucciones -->  
+            <img src="assets/img/link.jpg" class="url" alt="url">
+
             <h3>¿Cómo funciona Perú Imports?</h3>
               <p> 1° ¿QUÉ PRODUCTO QUIERES?
               <br>Busca el producto que quieres en la tienda donde deseas que se realice la compra</p>
@@ -63,15 +68,16 @@
               <p> 3° REALIZA EL PAGO
               <br>Aceptamos pagos con tarjeta de crédito (hasta 36 cuotas), débito, Paypal, depósito o transferencia bancaría.</p>  
               <p> 4° ESPERA TRANQUILO
-              <br>Perú Imports se encargará de todo. No tendrás que hacer ningún trámite ni papeleo, solo esperar en la comodidad de tu casa.</p>
-                                                
-           </section>                        
-                  
+              <br>Perú Imports se encargará de todo. No tendrás que hacer ningún trámite ni papeleo.</p>
+                                               
+                                 
+                
 
           <!-- foto de instrucciones -->    
-          <img src="assets/img/link.jpg" class="url" alt="url">
+          
+          </section>
 
-        </div>
+          </div>
           
         <!-- action es donde agrego la ruta de mi archivo php -->
         <!-- method como se envia  la info del form -->
