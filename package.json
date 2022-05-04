@@ -1,0 +1,23 @@
+{
+  "name": "clase-11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch scss/style.scss css/style.css"
+
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mauriciio89/courier_galvezcastro1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mauriciio89/courier_galvezcastro1/issues"
+  },
+  "homepage": "https://github.com/mauriciio89/courier_galvezcastro1#readme"
+}

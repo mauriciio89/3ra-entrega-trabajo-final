@@ -1,0 +1,17 @@
+@import '../base/variables';
+
+footer{
+    section{
+        display: flex;
+        background-color: $bg-color;
+        padding: 1em;
+        justify-content: space-around;
+        bottom: 0;
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+
+
+
